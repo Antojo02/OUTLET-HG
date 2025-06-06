@@ -1,0 +1,81 @@
+/* ======= Colores base ======= */
+:root {
+  --crema: #fdfaf6;
+  --beige: #f5e8dd;
+  --oscuro: #1d1d1d;
+  --gris-suave: #777;
+  --borde-claro: #e0dcd8;
+}
+
+/* ======= General ======= */
+body {
+  background-color: var(--crema);
+  color: var(--oscuro);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+/* ======= Navbar ======= */
+.navbar {
+  background-color: var(--beige) !important;
+  border-bottom: 1px solid var(--borde-claro);
+}
+.navbar-brand {
+  font-weight: 700;
+}
+.nav-link {
+  color: var(--oscuro) !important;
+  transition: all 0.2s ease;
+}
+.nav-link:hover {
+  text-decoration: underline;
+  color: #000 !important;
+}
+
+/* ======= Hero ======= */
+header {
+  background-color: var(--beige);
+  padding: 4rem 0;
+}
+header h1 {
+  color: var(--oscuro);
+}
+header p {
+  color: var(--gris-suave);
+}
+
+/* ======= Botones ======= */
+.btn-dark {
+  background-color: var(--oscuro);
+  border: none;
+}
+.btn-dark:hover {
+  background-color: #000;
+}
+
+/* ======= Categorías ======= */
+section h2 {
+  color: var(--oscuro);
+}
+.card h5 {
+  font-weight: 600;
+}
+.card {
+  border: 1px solid var(--borde-claro);
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* ======= Carrito ======= */
+#cart-items li {
+  background-color: var(--beige);
+  border-color: var(--borde-claro);
+}
+
+/* ======= Footer ======= */
+footer {
+  background-color: var(--oscuro);
+  color: white;
+}
